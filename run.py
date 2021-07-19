@@ -23,8 +23,6 @@ for count in range (0, countList) :
     useList[count] = useList[count].replace("\n", "")
 
 
-
-
 # 빈 데이터베이스 판별
 
 if useList == [] :
@@ -36,7 +34,6 @@ if useList == [] :
 root= Tk()
 root.withdraw()
 msg.showwarning('작업 경고', '데이터베이스의 양에 따라 시간이 오래 소요될 수 있습니다.\n작업 중에는 절대 조작하지 마세요.')
-
 
 
 # 작업영역
